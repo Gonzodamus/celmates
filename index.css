@@ -1,0 +1,110 @@
+html, body
+{
+height: 100%;
+width: 100%;
+margin: 0;
+}
+
+.title-card{
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 3.79%, #853078 100%), linear-gradient(90deg, #853078 0%, rgba(194, 91, 178, 0.87) 22.65%, rgba(252, 132, 233, 0) 100%);
+  position: absolute;
+  top: 7px;
+}
+.film{
+  height: 204px;
+  z-index: -1;
+  display: block;
+  margin: auto;
+}
+.title{
+  font-family: "Cabin";
+  font-size: 12em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-shadow:
+    8px 12px 12px rgba(0, 0, 0, 0.25);
+  color: #fff
+
+}
+.top-deco{
+  height: 7px;
+  background: linear-gradient(270deg, #B4974F 42.65%, rgba(255, 255, 255, 0) 50%), linear-gradient(90deg, #B4974F 0.49%, rgba(185, 158, 91, 0.933702) 41.79%, rgba(255, 255, 255, 0) 50%);
+}
+.player{
+  float: left;
+  width: 40%;
+  margin-left: 15%;
+}
+.feed{
+  float: right;
+  width: 28%;
+  margin-right: 15%;
+  padding-left: 5px;
+  border: solid;
+  border-width: thin;
+}
+.intro{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-family: "Roboto";
+  font-size: 1.2em;
+}
+.player-title{
+  font-family: "Cabin";
+  font-size: 2em;
+  text-align: center;
+}
+.subscribe-buttons{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+
+@media all and (max-width: 1100px) {
+  .title{
+    font-size: 18vw;
+  }
+
+@media all and (max-width: 720px) {
+  .title{
+    font-size: 18vw;
+  }
+  .title-card{
+    height: 12vh;
+  }
+  .film{
+    height: 12vh;
+  }
+  .intro{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+  }
+  .player{
+    float: none;
+    width: 80%;
+    margin: auto;
+    height: 200px;
+  }
+  .feed{
+    float: none;
+    width: 80%;
+    margin: auto;
+  }
+
+@media all and (max-width: 600px) {
+  .title{
+    font-size: 18vw;
+  }
+@media all and (max-width: 320px) {
+  .title{
+    font-size: 18vw;
+  }
+
+ }
